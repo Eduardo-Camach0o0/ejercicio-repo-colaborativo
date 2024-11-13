@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
 def fibonacci(n):
     # Validamos que n sea mayor o igual a 1
     if n <= 0:
@@ -33,7 +31,7 @@ lista = ['manzana', 'banana', 'pera', 'manzana', 'uva', 'manzana']
 palabra = 'manzana'
 resultado = contar_palabra(lista, palabra)
 print(f"La palabra '{palabra}' aparece {resultado} veces en la lista.")
->>>>>>> c075829e877abcd64461131144bbc3744a245c1b
+
 
 
 def promedio(numeros):
@@ -49,13 +47,9 @@ lista = [1,2,3,4,5,6,7,8]
 
 
 print(promedio(lista))
-<<<<<<< HEAD
-=======
 def invertir_lista(lista):
     nuevaLista = []
     for elemento in lista: 
         nuevaLista.insert(0, elemento)
     return nuevaLista
->>>>>>> Ale-FuncionDevLista
-=======
->>>>>>> c075829e877abcd64461131144bbc3744a245c1b
+
